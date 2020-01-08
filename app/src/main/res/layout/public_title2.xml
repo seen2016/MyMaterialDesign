@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlTk"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:visibility="visible"
+        android:id="@+id/returnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@mipmap/back"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/titleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorAccent"
+        android:lines="1"
+        android:maxEms="10"
+        android:text="标题"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="16sp"
+        tools:ignore="RelativeOverlap,SpUsage" />
+
+    <ImageView
+        android:id="@+id/addFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/x15"
+        android:layout_marginRight="@dimen/x15"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:visibility="gone"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/bianji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/x15"
+        android:layout_marginRight="@dimen/x15"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:visibility="gone"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/moreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/x15"
+        android:layout_marginRight="@dimen/x15"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:visibility="gone"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/fenlei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/x15"
+        android:layout_marginRight="@dimen/x15"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:visibility="gone"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/carry_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/x22"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/x30"
+        android:visibility="gone"
+        tools:ignore="RelativeOverlap,SpUsage" />
+
+    <TextView
+        android:id="@+id/bianji_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:text="编辑"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="@dimen/x34"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/x22"
+        />
+
+    <TextView
+        android:id="@+id/tv_preservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/x22"
+        android:text="完成"
+
+        android:textSize="@dimen/x30"
+        android:visibility="gone"
+        tools:ignore="RelativeOverlap,SpUsage" />
+    <TextView
+        android:id="@+id/tv_publish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/x22"
+
+        android:textSize="@dimen/x30"
+        android:visibility="gone"
+        tools:ignore="RelativeOverlap,SpUsage" />
+    <TextView
+        android:id="@+id/tv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/x22"
+        android:textColor="#000"
+        android:text="删除"
+        android:textSize="@dimen/x30"
+        android:visibility="gone"
+        tools:ignore="RelativeOverlap,SpUsage" />
+    <TextView
+        android:id="@+id/tv_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/x22"
+
+        android:text="提交"
+        android:textSize="@dimen/x30"
+        android:visibility="gone"
+        tools:ignore="RelativeOverlap,SpUsage" />
+
+
+</RelativeLayout>

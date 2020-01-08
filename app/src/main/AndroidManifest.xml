@@ -7,9 +7,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:resizeableActivity="true"
         android:supportsRtl="true"
         android:theme="@style/AppThem">
-        <activity android:name=".MainActivity">
+        <activity android:name=".TestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,6 +25,9 @@
         <activity android:name=".NestedScrollViewActivity" />
         <activity android:name=".NestedScrollView2Activity" />
         <activity android:name=".CustomBehaviorActivity" />
+        <meta-data
+            android:name="notch.config"
+            android:value="portrait|landscape" />
     </application>
 
 </manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="x15">8dp</dimen>
+    <dimen name="status_bar_height">0dp</dimen>
+    <dimen name="x30">15dp</dimen>
+    <dimen name="x22">22dp</dimen>
+    <dimen name="x34">17dp</dimen>
+    <dimen name="x250">125dp</dimen>
+    <dimen name="x25">25dp</dimen>
+</resources>
